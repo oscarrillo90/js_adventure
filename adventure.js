@@ -12,8 +12,8 @@ if (answer >= 2015) {
         alert("You get away, but your future son Marty Jr. is heckled for the rest of his days for his dad's cowardice.");
       }
     }
-  
-    
+
+
   } else if (biffGriff === "g") {
     var inOut = prompt("Griff is asking you if you are in, or out. What do you say? In or out? (i/o)");
     if (inOut === "i") {
@@ -23,12 +23,12 @@ if (answer >= 2015) {
     }
   }
 
-  
+
 } else if  (answer >= 1985 && answer <= 2014) {
  var yourName = prompt("Doc has already destroyed the Time Machine at this point. I guess you'll have to wait around until 2015. What name would you like to go by until then?");
  alert("Welcome to the future, " + yourName + ".")
 
-  
+
 } else if (answer >= 1955 && answer <= 1984) {
   var yesNoSet = prompt("I see you're a fan of Back to the Future 1. Your future mom has just asked you to the enchantment under the sea dance. What do you do? say yes, no, or set her up with george? (y/n/s)");
   if (yesNoSet === "y") {
@@ -39,7 +39,7 @@ if (answer >= 2015) {
     alert("Interesting. You set up an elaborate plan for your future dad to surprise your mom by beating you up. dispite going horribly awry, the plan ultimately works. You may go back to your own time.");
   }
 
-  
+
 } else if (answer < 1955) {
   var horseMoonTrain = prompt("I see you're a fan of Back to the future 3. You've run out of nitroglycerin to get back to your own time. How do you power the Time Machine? Horse, moonshine, or train? (h/m/t)");
   if (horseMoonTrain === "h") {
@@ -54,8 +54,3 @@ if (answer >= 2015) {
     alert("Smart choice. Unfortunately the doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.")
   }
 }
-
-
-  
-    
-  
